@@ -1,0 +1,21 @@
+a, a:focus, img, textarea:focus {
+    outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a, a:focus, img {
+    border: none;
+}
+.o-hide {
+	opacity: 0;
+}
+.color-link {
+	color: #aa4b4b;
+}
+
+.pointer {
+	cursor: pointer;
+}

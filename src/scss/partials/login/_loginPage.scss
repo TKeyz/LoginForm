@@ -1,0 +1,62 @@
+.login-page {
+	@extend %prc-width-100;
+
+	header {
+		@extend %prc-width-100;
+	}
+
+	h1 {
+		@extend %prc-width-100;
+		font-weight: 900;
+	}
+
+	h2 {
+		@extend %prc-width-100;
+	}
+}
+#formlog {
+
+	fieldset {
+		@extend %prc-width-100;
+
+		p {
+			@extend %prc-width-100;
+		}
+	}
+}
+#login-check {
+	
+	@extend %prc-width-100;
+	label {
+		height: 100%;
+		@extend %sprite-icons-site;
+	}
+	input[type=email] {
+		@extend %form-inpt-param;
+	}
+	input[type=password] {
+		@extend %form-inpt-param;
+	}
+}
+#login-user {
+
+	input {
+		width: 80%;
+		padding: 5px 0 5px 20%;
+		height: 40px;
+		font-size: $size-1-3em;
+		border: none;
+	}
+
+	label {
+		@extend %sprite-icons-site;
+	}
+
+	.l-username {
+		background-position: 0 -35px;
+	}
+
+	.l-password {
+		background-position: -50px -35px;
+	}
+}

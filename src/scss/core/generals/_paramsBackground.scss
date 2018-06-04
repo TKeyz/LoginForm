@@ -1,0 +1,38 @@
+%sprite-icons-site {
+	background-image: url('https://link.hstrunk.com/theme/images/sprite-icons-site@x1.png');
+	background-repeat: no-repeat;
+}
+@mixin border-rounded($value) {
+	border-radius: $value;
+	-moz-border-radius: $value;
+	-webkit-border-radius: $value;
+}
+.bck-contain {
+    background-size: contain;
+}
+.pos-center {
+    background-position: center center;
+}
+.b-norepeat {
+    background-repeat: no-repeat;
+}
+//COLORS
+.white {
+	color: #ffffff;
+}
+//BACKGROUND-COLORS
+.bg-site {
+	background-color: #555555;
+}
+.bg-grey-1 {
+	background-color: #e2e2e2;
+}
+//EXTRAS
+.shadow-light {
+	box-shadow: 1px 1px 5px #CCC;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color='#CCC',Direction=135,Strength=2);
+	zoom:1;
+}
+.rounded {
+	@include border-rounded(10px);
+}

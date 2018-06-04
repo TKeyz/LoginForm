@@ -1,0 +1,39 @@
+@mixin icon-square($pixels) {
+	width: $pixels;
+	height: $pixels;
+}
+
+@mixin prc-dim-width($pixels) {
+	width: $pixels;
+}
+
+.block {
+    display: block;
+}
+
+.hide {
+	display: none;
+}
+
+//WIDTHS
+.div-box-50 {
+    @include prc-dim-width(50%);
+}
+
+.div-box-60 {
+    @include prc-dim-width(60%);
+}
+
+//HEIGHTS
+.min-h-150 {
+    min-height: 150px;
+}
+
+//BOXES
+.width-box-1 {
+	box-sizing: border-box;
+}
+
+.icon-50 {
+	@include icon-square(50px);
+}

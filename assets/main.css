@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body .full-box {
+  width: 98%; }
+
+html, body, body .full, .login-page, .login-page header, .login-page h1, .login-page h2, #formlog fieldset, #formlog fieldset p, #login-check {
+  width: 100%; }
+
+#login-check input[type=email], #login-check input[type=password] {
+  height: 48px;
+  font-size: 1.3em;
+  border: none; }
+
+body {
+  color: #777;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a, a:focus, img, textarea:focus {
+  outline: none; }
+
+a {
+  text-decoration: none; }
+
+a, a:focus, img {
+  border: none; }
+
+.o-hide {
+  opacity: 0; }
+
+.color-link {
+  color: #aa4b4b; }
+
+.pointer {
+  cursor: pointer; }
+
+.float-l {
+  float: left; }
+
+.float-r {
+  float: right; }
+
+.box-rltiv {
+  position: relative; }
+
+.box-abst {
+  position: absolute; }
+
+.pos-top-0 {
+  top: 0; }
+
+.pos-lft-0 {
+  left: 0; }
+
+.pos-rgh-0 {
+  right: 0; }
+
+.pos-btm-0 {
+  bottom: 0; }
+
+.block {
+  display: block; }
+
+.hide {
+  display: none; }
+
+.div-box-50 {
+  width: 50%; }
+
+.div-box-60 {
+  width: 60%; }
+
+.min-h-150 {
+  min-height: 150px; }
+
+.width-box-1 {
+  box-sizing: border-box; }
+
+.icon-50 {
+  width: 50px;
+  height: 50px; }
+
+.t-10 {
+  font-size: 1em; }
+
+.t-18 {
+  font-size: 1.8em; }
+
+.t-22 {
+  font-size: 2.2em; }
+
+.italic {
+  font-style: italic; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.t-justify {
+  text-align: justify; }
+
+.line-h1-4 {
+  line-height: 1.2; }
+
+.vmarg-5 {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.vmarg-10 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.min-marg-top {
+  margin-top: 20px; }
+
+.big-marg-top {
+  margin-top: 40px; }
+
+.hmarg-auto {
+  margin-left: auto;
+  margin-right: auto; }
+
+.min-marg-btm {
+  margin-bottom: 25px; }
+
+.padd-1 {
+  padding: 1%; }
+
+#login-check label, #login-user label {
+  background-image: url("https://link.hstrunk.com/theme/images/sprite-icons-site@x1.png");
+  background-repeat: no-repeat; }
+
+.bck-contain {
+  background-size: contain; }
+
+.pos-center {
+  background-position: center center; }
+
+.b-norepeat {
+  background-repeat: no-repeat; }
+
+.white {
+  color: #ffffff; }
+
+.bg-site {
+  background-color: #555555; }
+
+.bg-grey-1 {
+  background-color: #e2e2e2; }
+
+.shadow-light {
+  box-shadow: 1px 1px 5px #CCC;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#CCC',Direction=135,Strength=2);
+  zoom: 1; }
+
+.rounded {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px; }
+
+.login-page h1 {
+  font-weight: 900; }
+
+#login-check label {
+  height: 100%; }
+
+#login-user input {
+  width: 80%;
+  padding: 5px 0 5px 20%;
+  height: 40px;
+  font-size: 1.3em;
+  border: none; }
+
+#login-user .l-username {
+  background-position: 0 -35px; }
+
+#login-user .l-password {
+  background-position: -50px -35px; }
+
+@media screen and (max-width: 570px) {
+  .min-blk-30 {
+    width: 90%; } }
+
+@media screen and (min-width: 571px) and (max-width: 959px) {
+  .min-blk-30 {
+    width: 45%; } }
+
+@media screen and (min-width: 960px) and (max-width: 1370px) {
+  .min-blk-30 {
+    width: 35%; } }
+
+@media screen and (min-width: 1371px) and (max-width: 2460px) {
+  .min-blk-30 {
+    width: 30%; } }
+
+@media screen and (min-width: 2461px) {
+  .min-blk-30 {
+    width: 15%; } }

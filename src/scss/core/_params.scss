@@ -1,0 +1,36 @@
+%prc-width-98 {
+	width: 98%;
+}
+%prc-width-100 {
+	width: 100%;
+}
+%form-inpt-param {
+	height: 48px;
+	font-size: $size-1-3em;
+	border: none;
+}
+
+html {
+	@extend %prc-width-100;
+}
+
+body {
+	@extend %prc-width-100;
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+
+	.full {
+		@extend %prc-width-100;
+	}
+
+	.full-box {
+		@extend %prc-width-98;
+	}
+}
+
+@import "core/generals/paramsBehavior";
+@import "core/generals/paramsPosition";
+@import "core/generals/paramsBoxes";
+@import "core/generals/paramsText";
+@import "core/generals/paramsMargin";
+@import "core/generals/paramsBackground";
