@@ -8,7 +8,8 @@ Made with Javascript, CSS and HTML, this project can be easily implemented to yo
 
 
 # Instructions
-To login use these credentials:
+To login, use these credentials:
+
 Username: design@tkeyz.com
 Password: helloworld
 
